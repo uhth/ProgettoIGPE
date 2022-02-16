@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.scene.CreditsSceneController">
+   <children>
+      <StackPane fx:id="creditsStackPane" prefHeight="150.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Canvas fx:id="creditsCanvas" height="720.0" width="1280.0" />
+            <Label fx:id="creditsLabel" text="CREDITS" StackPane.alignment="TOP_CENTER">
+               <font>
+                  <Font size="90.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="10.0" />
+               </StackPane.margin>
+            </Label>
+            <TextArea fx:id="creditsTextArea" editable="false" prefHeight="200.0" prefWidth="200.0" text="&#10;&#10;Backgroud Images by:&#10;&#10;AUTHOR: Royal_Naym&#10;SOURCE: https://royal-naym.itch.io/dark-nights-wallpaper-pack&#10;&#10;Backgrounds:&#10;1 Abandoned Hardware&#10;2 Beauty Potion V2&#10;3 Beauty Potion&#10;4 Coop Intruder V2&#10;5 Coop Intruder&#10;6 Lovecraftian Train V2&#10;7 Lovecraftian Train&#10;8 Puppet King V2&#10;9 Puppet King&#10;10 Rupture of Babel&#10;11 Skybox Village V2&#10;12 Skybox Village&#10;13 Snail Village V2&#10;14 Snail Village&#10;15 Spider Desktop&#10;16 Toymaker's Room V2&#10;17 Toymaker's Room&#10;18 Underwater Sulphur Lake V2&#10;19 Underwater Sulphur Lake&#10;&#10;--------&#10;&#10;AUTHOR: Miontomaru&#10;SOURCE: https://miontomaru.itch.io/metropolitan-city-parallax-background&#10;&#10;Backgrounds:&#10;MetropolitanCity&#10;&#10;&#10;---------------&#10;&#10;&#10;Musics by:&#10;&#10;AUTHOR: Luis Zuno ( @ansimuz )&#10;SOURCE: https://ansimuz.itch.io/industrial-parallax-background&#10;&#10;Tracks:&#10;Industrial&#10;&#10;--------&#10;&#10;AUTHOR: Abstraction&#10;SOURCE: http://www.abstractionmusic.com&#10;&#10;Tracks:&#10;Ludum Dare 30 - Track 9&#10;&#10;&#10;---------------&#10;&#10;&#10;Sound Effects by&#10;&#10;SOUCE: https://mixkit.co&#10;" wrapText="true" StackPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets bottom="50.0" left="160.0" right="160.0" top="140.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="menuButtonCredits" alignment="CENTER" mnemonicParsing="false" onAction="#ONMENUCLICKED" onMouseEntered="#ONMOUSEENTERED" prefHeight="42.0" prefWidth="91.0" text="Menu" StackPane.alignment="TOP_LEFT">
+               <StackPane.margin>
+                  <Insets left="10.0" top="10.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
